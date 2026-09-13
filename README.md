@@ -226,28 +226,26 @@ Git
 
 🔧 Backend Setup
 1. Navigate to the backend
-cd backend
+- cd backend
 2. Create a Python virtual environment
-Windows
-python -m venv .venv
-
-Activate the environment:
-
-.venv\Scripts\activate
-Linux / macOS
-python3 -m venv .venv
-source .venv/bin/activate
+- Windows
+    python -m venv .venv
+  Activate the environment:
+     .venv\Scripts\activate
+- Linux / macOS
+    python3 -m venv .venv
+    source .venv/bin/activate
 
 3. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4. Configure environment variables
 
 Create a .env file from the provided example.
 
-Windows
+- Windows
 copy .env.example .env
-Linux / macOS
+- Linux / macOS
 cp .env.example .env
 
 Configure the required values inside .env.
@@ -418,97 +416,100 @@ Security is an important component of the platform.
 
 The application includes security mechanisms such as:
 
-JWT-based authentication
-Password hashing
-Role-based authorization
-Protected API endpoints
-Protected frontend routes
-API rate limiting
-Environment-based configuration
-File upload validation
+-JWT-based authentication
+- Password hashing
+- Role-based authorization
+- Protected API endpoints
+- Protected frontend routes
+- API rate limiting
+- Environment-based configuration
+- File upload validation
 Role separation between students, recruiters, and administrators
+
 Production Security Roadmap
 
 Before deploying the application for real-world production use, additional hardening should be performed, including:
 
-PostgreSQL or another production-grade database
-Strong password hashing such as Argon2 or bcrypt
-Access and refresh token architecture
-HTTPS
-Strict CORS configuration
-Comprehensive audit logging
-Database migrations using Alembic
-Secure resume/file storage
-File type and size validation
-Production-grade rate limiting
-Secure secret management
-Centralized monitoring and logging
-Backup and recovery procedures
+- PostgreSQL or another production-grade database
+- Strong password hashing such as Argon2 or bcrypt
+- Access and refresh token architecture
+- HTTPS
+- Strict CORS configuration
+- Comprehensive audit logging
+- Database migrations using Alembic
+- Secure resume/file storage
+- File type and size validation
+- Production-grade rate limiting
+- Secure secret management
+- Centralized monitoring and logging
+- Backup and recovery procedures
 🧪 Development Status
 
 This project is currently under active development.
 
 Current Modules
- Authentication
- Student registration
- Login
- Role-based access
- Protected routes
- Student dashboard
- Recruiter dashboard
- Admin dashboard
- Placement prediction
- Prediction history
- Resume upload
- Resume parsing
- ATS analysis
- Career roadmap
- Job module
- Company matching
- Notification module
- Student profile module
- Recruiter candidate management
- Admin analytics
+ - Authentication
+ - Student registration
+ - Login
+ - Role-based access
+ - Protected routes
+ - Student dashboard
+ - Recruiter dashboard
+ - Admin dashboard
+ - Placement prediction
+ - Prediction history
+ - Resume upload
+ - Resume parsing
+ - ATS analysis
+ - Career roadmap
+ - Job module
+ - Company matching
+ - Notification module
+ - Student profile module
+ - Recruiter candidate management
+ - Admin analytics
+
 🚧 Planned Features
 
 The following features are planned for future development:
 
- Advanced AI career assistant
- Voice-based career assistant
- AI mock interview system
- Interview performance analysis
- Advanced resume optimization
- Advanced job matching
- Real-time notifications
- Email notifications
- Advanced job application tracking
- Company-wise placement insights
- Skill gap visualization
- Advanced recruiter search
- Recruiter interview scheduling
- PostgreSQL production database
- Alembic database migrations
- Docker support
- CI/CD pipeline
- Production deployment
- Advanced monitoring and logging
- Multi-organization support
+- Advanced AI career assistant
+ - Voice-based career assistant
+ - AI mock interview system
+ - Interview performance analysis
+ - Advanced resume optimization
+ - Advanced job matching
+ - Real-time notifications
+ - Email notifications
+ - Advanced job application tracking
+ - Company-wise placement insights
+ - Skill gap visualization
+ - Advanced recruiter search
+ - Recruiter interview scheduling
+ - PostgreSQL production database
+ - Alembic database migrations
+ - Docker support
+ - CI/CD pipeline
+ - Production deployment
+ - Advanced monitoring and logging
+- Multi-organization support
+
 🎯 Future Vision
 
 The long-term vision of the project is to create a complete AI-powered career and recruitment ecosystem.
 
 The platform aims to combine:
 
-AI Career Advisor
-Resume Analyzer
-ATS Checker
-Placement Prediction System
-Career Roadmap Generator
-Job Recommendation Engine
-Company Matching System
-Student Placement Portal
-Recruiter Portal
-Campus Recruitment Management System
+- AI Career Advisor
+- Resume Analyzer
+- ATS Checker
+- Placement Prediction System
+- Career Roadmap Generator
+- Job Recommendation Engine
+- Company Matching System
+- Student Placement Portal
+- Recruiter Portal
+- Campus Recruitment Management System
 
 The overall goal is to help students move through the complete placement journey:
 
@@ -556,10 +557,11 @@ Make your changes.
 Stage your changes:
 git add .
 Commit your changes:
-git commit -m "Add your feature"
-Push your branch:
-git push origin feature/your-feature
-Open a Pull Request on GitHub.
+- git commit -m "Add your feature"
+- Push your branch:
+- git push origin feature/your-feature
+- Open a Pull Request on GitHub.
+
 📌 Important Notes
 
 This project is currently under active development and should be considered a development-stage application.
