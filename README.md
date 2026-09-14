@@ -11,8 +11,36 @@ The **AI Placement System** is a full-stack web application that brings students
 The system combines resume analysis, ATS evaluation, placement prediction, career roadmap generation, job recommendations, company matching, notifications, and recruitment management.
 
 The platform is designed to help students understand their current placement readiness and identify the skills and improvements required to become job-ready.
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login
+
+![Login Page](Login.png.PNG)
+
+### 📝 Registration
+
+![Registration Page](Registration%20page.PNG)
+
+### 👨‍🎓 Student Dashboard
+
+![Student Dashboard](Student_dashboard.png.PNG)
+
+### 📊 Placement Prediction
+
+![Placement Prediction](Prediction%20.PNG)
+
+### 📈 Prediction History
+
+![Prediction History](Prediction%20history%20.PNG)
+
+### ⚙️ Backend API
+
+![Backend API](Backend_API.jpg)
 
 ---
+
 
 ## ✨ Features
 
